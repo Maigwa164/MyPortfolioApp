@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".referenceinfo"
+    android:background="@drawable/refwallpaper">
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="292dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="100dp"
+        android:text="Madam Sekento "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="22dp"
+        android:text="HOD Conputer Science Umma University"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="215dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="46dp"
+        android:text="linet@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41"
+        app:srcCompat="@drawable/emaillogo" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/phoneicon" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:text="0757470356"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="367dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="25dp"
+        android:text="Mr Neyole"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="367dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="24dp"
+        android:text="Lecturer at Umma University"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="82dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        app:srcCompat="@drawable/emaillogo" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="25dp"
+        android:text="neyole@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="65dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/phoneicon" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="65dp"
+        android:text="0704187566"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+</androidx.constraintlayout.widget.ConstraintLayout>
